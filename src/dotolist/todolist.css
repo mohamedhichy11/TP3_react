@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "poppins",sans-serif;
+}
+
+.cadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    
+}
+.cadre_task {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    max-height: auto;
+    background-color: #4d4d4d;
+    box-shadow: 10px 1px 40px 1px rgb(29, 29, 29);
+    justify-content: left;
+    padding-left: 20px;
+    padding-top: 13px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(34, 221, 159);
+    text-transform: uppercase;
+}
+
+
+.cadre_task:hover{
+    cursor: pointer;
+}
+.btn_Remove{
+    height: 50px;
+    width: 70px;
+    outline: none;
+    border: none;
+    background-color:#ff3632 ;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+}
+.btn_Remove:hover{
+    color: #ff3632;
+    background-color:white ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.titre{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.8s;
+}
+.titre:hover{
+        color:rgb(34, 221, 159);
+        transition: 0.8s;
+        cursor: default;
+}
+.container{
+    position: relative;
+    top: 20px;
+    background-color: #343434;
+    margin: auto;
+    border: 1px solid #000;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    border: 4px solid rgb(34, 221, 159);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.Btn_Input{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+}
+.btnAjouter{
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color:rgb(34, 221, 159) ;
+   font-size: 15px;
+   transition: 0.7s;
+   outline: none;
+}
+.btnAjouter:hover{
+    cursor: pointer;
+    background-color:rgb(28, 187, 134) ;
+    transition: 0.7s;
+}
+#logo_list{
+    margin-right: 10px;
+}
+ #checkk{
+    margin-right: 10px;
+    display:none;
+    color: rgb(28, 187, 134);
+ }
+
+
+
+
